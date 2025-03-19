@@ -1,0 +1,8 @@
+{
+  "tasks": {
+    "start": {
+      "description": "start localhost server",
+      "command": "deno run --watch --allow-read=www,.env --allow-net=localhost:8000 --env-file --allow-env=TARGET_DIRECTORY ./main.ts"
+    }
+  }
+}
